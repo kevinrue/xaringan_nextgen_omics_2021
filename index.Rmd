@@ -1,0 +1,61 @@
+---
+title: 'Interactive And Collaborative Exploration Of Large-Scale Transcriptomics Data With <img src="img/isee-sticker.png" alt="logo" style="vertical-align:middle" height="90px">'
+subtitle: 'NextGen Omics UK 2021'
+author: '[`r fontawesome::fa("github", fill = "black")` kevinrue](https://kevinrue.github.io) [`r fontawesome::fa("twitter", fill = "#1da1f2")` KevinRUE67](https://twitter.com/KevinRUE67) [`r fontawesome::fa("linkedin", fill = "#0e76a8")` kevin-rue-albrecht](https://www.linkedin.com/in/kevin-rue-albrecht/)'
+institute: 'University of Oxford'
+date: '2021-11-08 (updated: `r Sys.Date()`)'
+always_allow_html: yes
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, rladies-fonts, "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+# uncomment this line to produce HTML and PDF in RStudio:
+# knit: pagedown::chrome_print
+---
+
+layout: true
+
+<div class="my-header"><img src="img/isee-sticker.png" alt="logo" align="right" height="90px"></div>
+
+<div class="my-footer"><span>
+Interactive And Collaborative Exploration Of Large-Scale Transcriptomics Data With iSEE
+</span></div>
+
+```{r setup, include=FALSE}
+# Dependencies
+stopifnot(require(RefManageR))
+# knitr options
+knitr::opts_chunk$set(
+  echo = FALSE
+)
+# RefManager
+BibOptions(
+  check.entries = FALSE,
+  bib.style = "authoryear",
+  cite.style = "authoryear",
+  max.names = 3,
+  style = "markdown",
+  hyperlink = "to.doc",
+  dashed = TRUE)
+bib <- ReadBib("references.bib")
+```
+
+---
+
+# Slide Title
+
+Slide body.
+
+---
+
+# References
+
+.small-text[
+```{r, include=TRUE, echo=FALSE, results="asis"}
+PrintBibliography(bib)
+```
+]
