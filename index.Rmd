@@ -58,14 +58,6 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 
 ---
 
-# Transmitted selections 
-
-```{r}
-knitr::include_graphics("img/pbmc3k-selection.png")
-```
-
----
-
 # `r fontawesome::fa("github", fill = "black", position = "static")` Winners of the 1st Rstudio Shiny Contest
 
 ```{r, fig.align='center', out.height='300px'}
@@ -75,6 +67,14 @@ knitr::include_graphics("img/shiny-contest.png")
 .footnote[
 Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 ]
+
+---
+
+# Transmitted selections 
+
+```{r}
+knitr::include_graphics("img/pbmc3k-selection.png")
+```
 
 ---
 
