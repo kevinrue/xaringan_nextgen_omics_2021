@@ -58,9 +58,35 @@ Slide body.
 
 # Contact
 
+.pull-left[
+.center[
+<img src="img/kevinrue-sticker.png" alt="Kevin Rue-Albrecht" height="100px">
+]
+
 `r fontawesome::fa("github", fill = "black", position = "static")` [kevinrue](https://kevinrue.github.io)
+
 `r fontawesome::fa("twitter", fill = "#1da1f2", position = "static")` [KevinRUE67](https://twitter.com/KevinRUE67)
+
 `r fontawesome::fa("linkedin", fill = "#0e76a8", position = "static")` [kevin-rue-albrecht](https://www.linkedin.com/in/kevin-rue-albrecht/)
+]
+
+.pull-right[
+.center[
+<img src="img/isee-sticker.png" alt="iSEE" height="100px">
+]
+
+`r fontawesome::fa("slack", fill = "black", position = "static")`
+The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) Bioconductor Slack channel
+
+`r fontawesome::fa("github", fill = "black", position = "static")`
+This presentation on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/#1)
+
+`r fontawesome::fa("github", fill = "black", position = "static")`
+The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020)
+
+`r fontawesome::fa("github", fill = "black", position = "static")`
+The iSEE [GitHub organization](https://github.com/iSEE)
+]
 
 ---
 
