@@ -58,6 +58,14 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 
 ---
 
+# Transmitted selections 
+
+```{r}
+knitr::include_graphics("img/pbmc3k-selection.png")
+```
+
+---
+
 # Contact
 
 .pull-left[
