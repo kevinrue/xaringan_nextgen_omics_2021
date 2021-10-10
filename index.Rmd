@@ -50,9 +50,11 @@ bib <- ReadBib("references.bib")
 
 ---
 
-# Slide Title
+# iSEE
 
-Slide body.
+```{r}
+knitr::include_graphics("img/pbmc3k-default.png")
+```
 
 ---
 
