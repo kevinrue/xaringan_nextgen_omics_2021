@@ -4,7 +4,7 @@
 
 Hello, and thank you for joining this short talk about iSEE, a Bioconductor package that provides a graphical user interface for the interactive and collaborative exploration of large-scale transcriptomics data.
 
-My name is Kevin Rue-Albrecht. I am a computational biologist in the group of David Sims at the University of Oxford, and an instructor for the Oxford Biomedical Data Sience training programme.
+My name is Kevin Rue-Albrecht. I am a computational biologist in the group of David Sims at the University of Oxford, and where a large part of my responsibilities is to prepare and deliver training materials as an instructor for the Oxford Biomedical Data Sience training programme.
 
 ## Slide 2
 
