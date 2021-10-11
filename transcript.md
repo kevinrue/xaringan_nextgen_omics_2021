@@ -31,3 +31,4 @@ One of the key features of iSEE is the ability of panels to select data points i
 - iSEE()
 - Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
 - Individual apps can either be tied to one dataset or offer a selection of datasets from which users can choose on the app landing page
+- Code tracker
