@@ -13,7 +13,7 @@ The graphical user interface includes a number of panels, each with a dedicated 
 
 ## Slide 3
 
-iSEE uses the RStudio shiny R package, and won the 1st prize of the RStudio Shiny contest in 2019 for "Most technically impressive" app among more than 100 submissions.
+iSEE uses the RStudio shiny R package, and won the 1st prize of the world-wide RStudio Shiny contest in 2019 for "Most technically impressive" app among more than 100 submissions.
 
 ## Slide 4
 
