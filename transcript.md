@@ -19,6 +19,9 @@ iSEE uses the RStudio shiny R package, and won the 1st prize of the world-wide R
 
 iSEE applications feature a wide range of useful functionality.
 One of the key features of iSEE is the ability of panels to select data points in some panels and transmit those selections to one or more other panels.
+Selections can be made using the rectangular brush builtin the shiny package, or using our bespoke lasso selection using waypoints.
+The "Selection parameters" box associated with each panel controls how each selection is used by the receiving panel.
+The panel can be restricted to display only the data points selected in the panel where the selection was made, as seen in the middle panel, or the selected data points can simply be highlighted in the receiving panel, as seen on the right. 
 
 ## TODO
 
