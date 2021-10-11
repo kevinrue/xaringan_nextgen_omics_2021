@@ -20,6 +20,12 @@ iSEE uses the RStudio shiny R package, and won the 1st prize of the world-wide R
 This is of course not solely my work but the shared sweat and tears of four talented postdoctoral researchers.
 Incidentally, it is a beautiful example of organic collaboration initiated during an informal discussion at a conference in December 2017, and has led to several other fruitful outputs to date.
 
+## Bioconductor
+
+<!--
+It might be more natural to introduce Bioconductor here.
+-->
+
 ## Slide 4
 
 iSEE applications feature a wide range of useful functionality.
