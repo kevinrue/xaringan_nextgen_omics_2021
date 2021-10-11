@@ -89,6 +89,11 @@ Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 </tr>
 </table>
 
+.center[
+<img src="img/bioconductor-sticker.png" alt="iSEE" height="200px">
+<img src="img/EuroBioc2017-sticker.png" alt="iSEE" height="200px">
+]
+
 ---
 
 # Transmitted selections 
