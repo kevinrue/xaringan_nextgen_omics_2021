@@ -8,7 +8,7 @@ My name is Kevin Rue-Albrecht. I am a computational biologist in the group of Da
 
 ## Slide 2
 
-iSEE delivers interactive web-applications that can be run locally in RStudio or accessed on a web-server hosting the application using any major web browser, including Google Chrome, Mozilla Firefox, and Apple Safari.
+iSEE delivers interactive web-applications that can be run locally in RStudio Desktop or accessed on a web-server hosting the application using any major web browser, including Google Chrome, Mozilla Firefox, and Apple Safari.
 The graphical user interface includes a number of panels, each with a dedicated functionality, from dimensionality reduction results, to sample or gene metadata, or values from experimental assays.
 
 ## Slide 3
