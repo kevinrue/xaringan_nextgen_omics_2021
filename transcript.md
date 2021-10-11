@@ -25,7 +25,6 @@ The panel can be restricted to display only the data points selected in the pane
 
 ## TODO
 
-- Quatuor of developers (1 slide)
 - Introduce Bioconductor
 - Introduce SummarizedExperiment / SingleCellExperiment (containers)
 - Introduce single-cell analysis in Bioconductor (OSCA)

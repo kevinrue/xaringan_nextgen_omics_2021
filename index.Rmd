@@ -58,7 +58,7 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 
 ---
 
-# `r fontawesome::fa("github", fill = "black", position = "static")` Winners of the 1st Rstudio Shiny Contest
+# `r fontawesome::fa("medal", position = "static")` Winners of the 1st Rstudio Shiny Contest
 
 ```{r, fig.align='center', out.height='300px'}
 knitr::include_graphics("img/shiny-contest.png")
@@ -67,6 +67,27 @@ knitr::include_graphics("img/shiny-contest.png")
 .footnote[
 Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 ]
+
+---
+
+# <i class="fas fa-users"></i> Team effort
+
+<br/>
+
+<table>
+<tr>
+<td width="25%"><a href="https://kevinrue.github.io"><img src="img/kevin-rue.jpeg"></a></td>
+<td width="25%"><a href="https://csoneson.github.io"><img src="img/charlotte-soneson.png"></a></td>
+<td width="25%"><a href="https://federicomarini.github.io"><img src="img/federico-marini.png"></a></td>
+<td width="25%"><a href="https://orcid.org/0000-0002-3564-4813"><img src="img/aaron-lun.png"></a></td>
+</tr>
+<tr>
+<td align='center' width="25%">Kevin</td>
+<td align='center' width="25%">Charlotte</td>
+<td align='center' width="25%">Federico</td>
+<td align='center' width="25%">Aaron</td>
+</tr>
+</table>
 
 ---
 
