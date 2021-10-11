@@ -20,4 +20,13 @@ iSEE uses the RStudio shiny R package, and won the 1st prize of the RStudio Shin
 iSEE applications feature a wide range of useful functionality.
 One of the key features of iSEE is the ability of panels to select data points in some panels and transmit those selections to one or more other panels.
 
-communicate and exchange selections of data points to one another.
+## TODO
+
+- Quatuor of developers (1 slide)
+- Introduce Bioconductor
+- Introduce SummarizedExperiment / SingleCellExperiment (containers)
+- Introduce single-cell analysis in Bioconductor (OSCA)
+- iSEE(sce)
+- iSEE(..., initial)
+- iSEE()
+- Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
