@@ -96,6 +96,36 @@ Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 
 ---
 
+# Bioconductor
+
+.pull-left[
+## Release 3.13 (April 2021)
+
+- 2042 software packages
+- 406 experiment data packages
+- 965 annotation packages
+- 29 workflows
+
+<https://bioconductor.org/>
+
+
+.center[
+<img src="img/bioconductor-sticker.png" alt="iSEE" height="200px">
+]
+]
+
+.pull-right[
+```{r, out.height='450px'}
+knitr::include_graphics("img/osca.fig3.workflow.png")
+```
+
+.small-p[
+[Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
+]
+]
+
+---
+
 # Transmitted selections 
 
 ```{r}
