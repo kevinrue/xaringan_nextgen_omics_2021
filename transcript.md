@@ -23,7 +23,7 @@ Incidentally, it is a beautiful example of an organic collaboration initiated du
 
 ## Bioconductor
 
-The Bioconductor project was established in 2001, with the stated mission of ...
+The Bioconductor project was established in 2001, with the mission to promote the statistical analysis and comprehension of current and emerging high-throughput biological assays.
 Over the years, the project has catered for many different omics technologies, from gene expression microarrays to the wide range of sequencing based technologies.
 Single cell omics are no exception, motivating the development of a growing collection of packages providing infrastructure and analytical tools for the analysis of transcriptomics and integrative multi-omics single-cell data sets.
 
@@ -37,7 +37,6 @@ The panel can be restricted to display only the data points selected in the pane
 
 ## TODO
 
-- Introduce Bioconductor
 - Introduce SummarizedExperiment / SingleCellExperiment (containers)
 - Introduce single-cell analysis in Bioconductor (OSCA)
 - iSEE(sce)
