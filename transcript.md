@@ -10,7 +10,7 @@ I also develop and maintaing software for the analysis of omics data sets, inclu
 ## iSEE
 
 iSEE delivers interactive web-applications that can be run locally in RStudio Desktop or accessed on a web-server hosting the application using any major web browser, including Google Chrome, Mozilla Firefox, and macOS Safari.
-The graphical user interface includes a number of panels, each with a dedicated functionality, from dimensionality reduction results, to sample or gene metadata, or values from experimental assays.
+The graphical user interface includes a range of panels, each with a dedicated functionality, from dimensionality reduction results, to sample or gene metadata, or values from experimental assays.
 
 ## Winners of the 1st Rstudio Shiny Contest
 
@@ -18,16 +18,16 @@ iSEE uses the R package `shiny` from RStudio, and won the 1st prize of the first
 
 ## Team effort
 
-This is of course not solely my work but the shared sweat and tears of four talented postdoctoral researchers.
-Incidentally, it is a beautiful example of an organic collaboration initiated during an informal discussion at a conference in December 2017, and has led to several other fruitful outputs together to date.
+iSEE is not solely my work but the shared sweat and tears of four talented postdoctoral researchers.
+Incidentally, it is a beautiful example of an organic collaboration initiated during an informal discussion at a conference in December 2017, and has led to a great collaboration and friendship as well as several other fruitful outputs together.
 
 ## Bioconductor
 
-The Bioconductor project was established in 2001, with the mission to promote the statistical analysis and comprehension of current and emerging high-throughput biological assays.
-Over the years, the project has catered for many different omics technologies, from gene expression microarrays to the wide range of sequencing based technologies.
+As I mentioned, iSEE is part of the Bioconductor project, a scientific initiative established in 2001 with the mission to promote the statistical analysis and comprehension of current and emerging high-throughput biological assays.
+Over the years, the project has accumulated over three thousand R packages catering for many different omics technologies, from gene expression microarrays to the wide range of sequencing based technologies.
 Single cell omics are no exception, motivating the development of a growing collection of packages providing infrastructure and analytical tools for the analysis of transcriptomics and integrative multi-omics single-cell data sets.
-
-TODO: add citation for Amezquita et al. 
+One of the great strengths of the Bioconductor project relies on the interoperability between packages accepted in the repository, allowing users and developers to write arbitrarily complex workflows that combine the functionality multiple packages while operating on common data structures.
+In this context, iSEE leverages the information accumulated during those analytical workflows, offering an interactive graphical user interface to conveniently explore and visualise those results.
 
 ## SingleCellExperiment
 
