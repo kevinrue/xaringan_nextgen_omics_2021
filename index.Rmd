@@ -153,6 +153,14 @@ knitr::include_graphics("img/pbmc3k-parametes-boxes.png")
 
 ---
 
+# Transmitted selections 
+
+```{r}
+knitr::include_graphics("img/pbmc3k-selection.png")
+```
+
+---
+
 # Code tracker
 
 ```{r}
@@ -161,10 +169,41 @@ knitr::include_graphics("img/pbmc3k-code-tracker.png")
 
 ---
 
-# Transmitted selections 
+# Panel settings
 
 ```{r}
-knitr::include_graphics("img/pbmc3k-selection.png")
+knitr::include_graphics("img/pbmc3k-panel-settings.png")
+```
+
+---
+
+# Preconfigured app
+
+.pull-left[
+## Define the initial state
+
+```{r, echo=TRUE, eval=FALSE}
+initial <- list(
+    ReducedDimensionPlot(
+        PanelWidth = 6L,
+        Type = "TSNE",
+        ColorByColumnData = "Cluster"
+    )
+)
+```
+]
+
+.pull-right[
+## Alternatively
+
+Use the panel settings exported from a past session.
+]
+
+## Configure the app and launch!
+
+```{r, echo=TRUE, eval=FALSE}
+app <- iSEE(pbmc3k, initial = initial)
+shiny::runApp(app)
 ```
 
 ---
