@@ -145,6 +145,22 @@ knitr::include_graphics("img/osca.fig2.sce.png")
 
 ---
 
+# Parameter boxes
+
+```{r}
+knitr::include_graphics("img/pbmc3k-parametes-boxes.png")
+```
+
+---
+
+# Code tracker
+
+```{r}
+knitr::include_graphics("img/pbmc3k-code-tracker.png")
+```
+
+---
+
 # Transmitted selections 
 
 ```{r}
