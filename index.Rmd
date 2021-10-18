@@ -177,7 +177,7 @@ knitr::include_graphics("img/pbmc3k-panel-settings.png")
 
 ---
 
-# Preconfigured app
+# Preconfigured applications
 
 .pull-left[
 ## Define the initial state
@@ -205,6 +205,22 @@ Use the panel settings exported from a past session.
 app <- iSEE(pbmc3k, initial = initial)
 shiny::runApp(app)
 ```
+
+---
+
+# References
+
+.small-text[
+```{r, include=TRUE, echo=FALSE, results="asis"}
+NoCite(bib, "rue2018isee")
+NoCite(bib, "amezquita2020osca")
+PrintBibliography(bib)
+```
+]
+
+.center[
+<img src="img/isee-sticker.png" alt="logo" style="vertical-align:middle" height="80px">
+]
 
 ---
 
@@ -238,20 +254,4 @@ The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBi
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
 The iSEE [GitHub organization](https://github.com/iSEE)
-]
-
----
-
-# References
-
-.small-text[
-```{r, include=TRUE, echo=FALSE, results="asis"}
-NoCite(bib, "rue2018isee")
-NoCite(bib, "amezquita2020osca")
-PrintBibliography(bib)
-```
-]
-
-.center[
-<img src="img/isee-sticker.png" alt="logo" style="vertical-align:middle" height="80px">
 ]
