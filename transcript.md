@@ -27,6 +27,12 @@ The Bioconductor project was established in 2001, with the mission to promote th
 Over the years, the project has catered for many different omics technologies, from gene expression microarrays to the wide range of sequencing based technologies.
 Single cell omics are no exception, motivating the development of a growing collection of packages providing infrastructure and analytical tools for the analysis of transcriptomics and integrative multi-omics single-cell data sets.
 
+TODO: add citation for Amezquita et al. 
+
+## SingleCellExperiment
+
+In particular, 
+
 ## Slide 4
 
 iSEE applications feature a wide range of useful functionality.

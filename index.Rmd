@@ -44,7 +44,8 @@ BibOptions(
   max.names = 3,
   style = "markdown",
   hyperlink = "to.doc",
-  dashed = TRUE)
+  dashed = TRUE,
+  longnamesfirst = FALSE)
 bib <- ReadBib("references.bib")
 ```
 
@@ -121,7 +122,20 @@ knitr::include_graphics("img/osca.fig3.workflow.png")
 
 .small-p[
 [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
+`r Citep(bib, "amezquita2020osca")`
 ]
+]
+
+---
+
+# SingleCellExperiment
+
+```{r}
+knitr::include_graphics("img/osca.fig2.sce.png")
+```
+
+.small-p[
+`r Citep(bib, "amezquita2020osca")`
 ]
 
 ---
