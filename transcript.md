@@ -44,17 +44,9 @@ On the right, a different type of panel can be used to visualise assayed values 
 
 One of the key features that motivated the development of iSEE is the ability to select data points in some panels and use those selections for highlighting or subsetting in one or more other panels.
 In iSEE, selections can be made using the rectangular brush built in the shiny package, or using our bespoke lasso selection using waypoints.
-The "Selection parameters" box associated with each panel controls how each selection is used by the receiving panel.
-The panel can be restricted to display only the data points selected in the panel where the selection was made, as seen in the middle panel, or the selected data points can simply be highlighted in the receiving panel, as seen on the right. 
-
-
-of panels to select 
-
-
-## Slide 4
-
-iSEE applications feature a wide range of useful functionality.
-However, one of the key features that motivated the development of iSEE is the ability of panels to select data points in some panels and transmit those selections to one or more other panels.
+The "Selection parameters" box associated with each panel controls which selection to use in the panel, and how the selection is used by the receiving panel.
+For instance, the receiving panel can be restricted to display only the data points selected in the panel where the selection was made, as seen in the middle panel, or the selected data points can simply be highlighted in the receiving panel, as seen on the right. 
+Furthermore, although not illustrated here, iSEE supports multiple selections, allowing users to use individual selections or their union in receiving panels.
 
 ## TODO
 
