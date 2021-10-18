@@ -31,15 +31,30 @@ In this context, iSEE leverages the information accumulated during those analyti
 
 ## SingleCellExperiment
 
-In particular, 
+In particular, one of the latest developments in the Bioconductor infrastructure is the SingleCellExperiment S4 class of objects. This extension of the earlier SummarizedExperiment class is capable of storing all the essential information for most single-cell experiments in a single object. This makes it a convenient and powerful data structure that has become the currency for Bioconductor packages processing single-cell data. At its core, the SingleCellExperiment class stores the raw and transformed assay data for each feature and cell in matrix format. Additional experimental metadata for both features and cells can be stored in DataFrames, while the matrices of dimensionality reduction results are stored in a separate component of the same object. All of that information is kept synchronised during reordering and subsetting operations.
+
+## Parameter boxes
+
+The stability and convenience of the SingleCellExperiment allows iSEE to automatically parse the information available in the object, and populate the graphical user interface with visual inputs that users can interact with to access and visualise individual pieces of information, focusing on what they are trying to achieve rather than how.
+User inputs are subdivided into three categories: data, visual, and selection.
+For instance, we see here that the first panel on the left, in its data parameters box, has selected the TSNE dimensionality reduction results for display, in a dropdown menu that can be used to instantly switch to any other dimensionality reduction results available in the object. We also catch a glimpse of the visual parameters box, which can be used to control the color, shape, and other visual aspects of the panel plot.
+On the right, a different type of panel can be used to visualise assayed values for one specific feature in the data set. To that end, the panel provides a slightly different set of user inputs, some of which are visible in the data parameter box.
+
+## Transmitted selections
+
+One of the key features that motivated the development of iSEE is the ability to select data points in some panels and use those selections for highlighting or subsetting in one or more other panels.
+In iSEE, selections can be made using the rectangular brush built in the shiny package, or using our bespoke lasso selection using waypoints.
+The "Selection parameters" box associated with each panel controls how each selection is used by the receiving panel.
+The panel can be restricted to display only the data points selected in the panel where the selection was made, as seen in the middle panel, or the selected data points can simply be highlighted in the receiving panel, as seen on the right. 
+
+
+of panels to select 
+
 
 ## Slide 4
 
 iSEE applications feature a wide range of useful functionality.
 However, one of the key features that motivated the development of iSEE is the ability of panels to select data points in some panels and transmit those selections to one or more other panels.
-Selections can be made using the rectangular brush builtin the shiny package, or using our bespoke lasso selection using waypoints.
-The "Selection parameters" box associated with each panel controls how each selection is used by the receiving panel.
-The panel can be restricted to display only the data points selected in the panel where the selection was made, as seen in the middle panel, or the selected data points can simply be highlighted in the receiving panel, as seen on the right. 
 
 ## TODO
 
