@@ -177,7 +177,7 @@ knitr::include_graphics("img/pbmc3k-panel-settings.png")
 
 ---
 
-# Preconfigured app
+# Preconfigured applications
 
 .pull-left[
 ## Define the initial state
