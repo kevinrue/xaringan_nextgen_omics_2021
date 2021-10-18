@@ -65,6 +65,10 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 knitr::include_graphics("img/shiny-contest.png")
 ```
 
+.center[
+_"Most technically impressive"_
+]
+
 .footnote[
 Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 ]
@@ -135,6 +139,7 @@ knitr::include_graphics("img/osca.fig2.sce.png")
 ```
 
 .small-p[
+[Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
 `r Citep(bib, "amezquita2020osca")`
 ]
 
