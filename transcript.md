@@ -50,11 +50,10 @@ Furthermore, although not illustrated here, iSEE supports multiple selections, a
 
 ## TODO
 
-- Introduce SummarizedExperiment / SingleCellExperiment (containers)
-- Introduce single-cell analysis in Bioconductor (OSCA)
+- Guided tour
+- Develop new panels (e.g. show class inheritance tree)
+- Panels that perform dynamic computation
 - iSEE(sce)
-- iSEE(..., initial)
 - iSEE()
 - Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
 - Individual apps can either be tied to one dataset or offer a selection of datasets from which users can choose on the app landing page
-- Code tracker
