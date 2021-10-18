@@ -44,7 +44,8 @@ BibOptions(
   max.names = 3,
   style = "markdown",
   hyperlink = "to.doc",
-  dashed = TRUE)
+  dashed = TRUE,
+  longnamesfirst = FALSE)
 bib <- ReadBib("references.bib")
 ```
 
@@ -63,6 +64,10 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 ```{r, fig.align='center', out.height='300px'}
 knitr::include_graphics("img/shiny-contest.png")
 ```
+
+.center[
+_"Most technically impressive"_
+]
 
 .footnote[
 Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
@@ -121,8 +126,30 @@ knitr::include_graphics("img/osca.fig3.workflow.png")
 
 .small-p[
 [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
+`r Citep(bib, "amezquita2020osca")`
 ]
 ]
+
+---
+
+# SingleCellExperiment
+
+```{r}
+knitr::include_graphics("img/osca.fig2.sce.png")
+```
+
+.small-p[
+[Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
+`r Citep(bib, "amezquita2020osca")`
+]
+
+---
+
+# Parameter boxes
+
+```{r}
+knitr::include_graphics("img/pbmc3k-parametes-boxes.png")
+```
 
 ---
 
@@ -130,6 +157,53 @@ knitr::include_graphics("img/osca.fig3.workflow.png")
 
 ```{r}
 knitr::include_graphics("img/pbmc3k-selection.png")
+```
+
+---
+
+# Code tracker
+
+```{r}
+knitr::include_graphics("img/pbmc3k-code-tracker.png")
+```
+
+---
+
+# Panel settings
+
+```{r}
+knitr::include_graphics("img/pbmc3k-panel-settings.png")
+```
+
+---
+
+# Preconfigured app
+
+.pull-left[
+## Define the initial state
+
+```{r, echo=TRUE, eval=FALSE}
+initial <- list(
+    ReducedDimensionPlot(
+        PanelWidth = 6L,
+        Type = "TSNE",
+        ColorByColumnData = "Cluster"
+    )
+)
+```
+]
+
+.pull-right[
+## Alternatively
+
+Use the panel settings exported from a past session.
+]
+
+## Configure the app and launch!
+
+```{r, echo=TRUE, eval=FALSE}
+app <- iSEE(pbmc3k, initial = initial)
+shiny::runApp(app)
 ```
 
 ---
