@@ -285,8 +285,8 @@ The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) Bioconductor Sl
 This presentation on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/#1)
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
-The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020)
+The iSEE [GitHub organization](https://github.com/iSEE)
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
-The iSEE [GitHub organization](https://github.com/iSEE)
+The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020)
 ]
