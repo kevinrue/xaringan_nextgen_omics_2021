@@ -231,6 +231,14 @@ knitr::include_graphics("img/panel-classes.png")
 
 ---
 
+# Custom landing pages
+
+```{r}
+knitr::include_graphics("img/landing-page.png")
+```
+
+---
+
 # References
 
 .small-text[
