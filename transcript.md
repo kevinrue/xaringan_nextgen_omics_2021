@@ -98,10 +98,34 @@ In other words, built-in panels do not compute new information.
 However, some panels in the `iSEEu` package demonstrate how users can develop panels that do compute new information.
 For instance the `DynamicReducedDimensionPlot` is designed to receive a selection of data points from another panel, and dynamically compute and display a new dimensionality reduction result for that selection.
 
+## Custom landing pages
+
+iSEE was originally designed to serve one data set per application.
+However, we have found that for publicly available applications, it can be convenient to centralise multiple data sets in a single application letting users choose a data set at run time.
+For this, users can design a custom landing page, where visitors should be presented with at least a choice of data sets, and a button to load the chosen data set in the standard iSEE user interface.
+Custom landing pages can be a great way to welcome visitors on a branded web page, while leveraging the functionality of iSEE applications for interactive exploration.
+
+## Insert slide here
+
+...
+
+## References
+
+With this, I would like to acknowledge the collective work of the Bioconductor community and my collaborators on this project.
+The mere idea of `iSEE` could not have been possible without the extensive collection of Bioconductor packages that provide infrastructure and software for the representation and processing of omics data sets.
+I am particularly thankful for the positive feedback that we have received over the last few years.
+This has been a great source of motivation and moral support to continue maintaining iSEE, as well as delivering conferences presentations and workshops.
+
+## Contact
+
+Finally, I will conclude with contact information for myself and the iSEE project, should you wish to continue the discussion beyond this Next Gen Omics meeting.
+You can reach me on Github, Twitter, and LinkedIn.
+The iSEE project has a dedicated channel on the Bioconductor Slack workspace.
+This presentation is available in HTML format on my GitHub account.
+The iSEE project also has a dedicated account on GitHub, where you can find training materials, such as workshops and conference presentations.
+
 ## TODO
 
-- Develop new panels (e.g. show class inheritance tree)
-- Panels that perform dynamic computation
 - iSEE(sce)
 - iSEE()
 - Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
