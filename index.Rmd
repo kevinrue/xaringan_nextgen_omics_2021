@@ -145,6 +145,14 @@ knitr::include_graphics("img/osca.fig2.sce.png")
 
 ---
 
+# SingleCellExperiment & iSEE
+
+```{r, out.height='500px', fig.align='center'}
+knitr::include_graphics("img/osca-sce-isee.png")
+```
+
+---
+
 # Parameter boxes
 
 ```{r}
@@ -239,6 +247,28 @@ knitr::include_graphics("img/landing-page.png")
 
 ---
 
+# More
+
+- Not only single-cell omics, but any rectangular experimental data set, e.g.
+  
+  + bulk assays (e.g., RNA-seq, ChIP-seq)
+
+  + microarray
+  
+  + flow cytometry
+  
+  + ...
+
+<br/>
+
+- Voice recognition, with `iSEE(..., voice = TRUE)`
+
+<br/>
+
+- Online book [Extending iSEE](https://isee.github.io/iSEE-book/)
+
+---
+
 # References
 
 .small-text[
@@ -282,11 +312,20 @@ PrintBibliography(bib)
 The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) Bioconductor Slack channel
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
-This presentation on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/#1)
+The iSEE GitHub organization at
+<https://github.com/iSEE>
 
-`r fontawesome::fa("github", fill = "black", position = "static")`
-The iSEE [GitHub organization](https://github.com/iSEE)
+]
 
-`r fontawesome::fa("github", fill = "black", position = "static")`
-The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+.center[
+This presentation on GitHub at
+
+<https://kevinrue.github.io/xaringan_nextgen_omics_2021/>
 ]

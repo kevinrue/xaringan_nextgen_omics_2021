@@ -40,10 +40,13 @@ At its core, the SingleCellExperiment class stores assay data for each feature a
 However, the object also includes components to store metadata for both features and cells, as well as dimensionality reduction results.
 Crucially, all of that information is kept synchronised during reordering and subsetting operations on the object.
 
-## Parameter boxes
+## SingleCellExperiment & iSEE
 
 The stability and convenience of the SingleCellExperiment allows iSEE to automatically discover and parse the information available in any given object.
-In turn, that information is used to populate the graphical user interface with interactive control inputs allowing users to access, combine, and visualise individual pieces of information, focusing on what they are trying to achieve rather than how.
+In turn, that information is used to populate the graphical user interface with interactive control inputs allowing users to access, combine, and visualise individual pieces of information, allowing users to focus on what they are trying to achieve rather than how the data are programmatically processed behind the scene.
+
+## Parameter boxes
+
 User inputs are subdivided into three categories: data, visual, and selection.
 For instance, we see here that the first panel on the left, in its data parameters box, has selected the TSNE dimensionality reduction results for display, in a dropdown menu that can be used to instantly switch to any other dimensionality reduction result available in the object.
 At the bottom, we also catch a glimpse of the visual parameters box, which can be used to control the colour, shape, and other visual aspects of the panel plot.
