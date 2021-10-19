@@ -40,10 +40,13 @@ At its core, the SingleCellExperiment class stores assay data for each feature a
 However, the object also includes components to store metadata for both features and cells, as well as dimensionality reduction results.
 Crucially, all of that information is kept synchronised during reordering and subsetting operations on the object.
 
-## Parameter boxes
+## SingleCellExperiment & iSEE
 
 The stability and convenience of the SingleCellExperiment allows iSEE to automatically discover and parse the information available in any given object.
-In turn, that information is used to populate the graphical user interface with interactive control inputs allowing users to access, combine, and visualise individual pieces of information, focusing on what they are trying to achieve rather than how.
+In turn, that information is used to populate the graphical user interface with interactive control inputs allowing users to access, combine, and visualise individual pieces of information, allowing users to focus on what they are trying to achieve rather than how the data are programmatically processed behind the scene.
+
+## Parameter boxes
+
 User inputs are subdivided into three categories: data, visual, and selection.
 For instance, we see here that the first panel on the left, in its data parameters box, has selected the TSNE dimensionality reduction results for display, in a dropdown menu that can be used to instantly switch to any other dimensionality reduction result available in the object.
 At the bottom, we also catch a glimpse of the visual parameters box, which can be used to control the colour, shape, and other visual aspects of the panel plot.
@@ -105,9 +108,15 @@ However, we have found that for publicly available applications, it can be conve
 For this, users can design a custom landing page, where visitors should be presented with at least a choice of data sets, and a button to load the chosen data set in the standard iSEE user interface.
 Custom landing pages can be a great way to welcome visitors on a branded web page, while leveraging the functionality of iSEE applications for interactive exploration.
 
-## Insert slide here
+## More
 
-...
+As we are approaching the end of this presentation, I will stress that iSEE is far from restricted to single-cell transcriptomics data sets.
+Despite its name, the SingleCellExperiment class is suitable for storing any rectangular data set, from bulk experiments such as RNA-seq or ChIP-seq, to microarray, flow cytometry, and more.
+Feel free to come to us with your own use cases, and challenge us to see how your own types of data may come to life in iSEE apps!
+I will also mention that I could not possibly introduce or demonstrate all the use cases and features of iSEE application in this presentation.
+In the past, we have given up to 3-hour long hands-on workshops and still not entirely covered everything iSEE can do.
+One example is the use of cloud-based voice recognition software to allow users voice control of iSEE applications, such as adding or removing panels from the user interface, or coloring data points using one of the covariates available in the data set.
+Finally, we have also written an online freely available book that imparts knowledge and advice for users wishing to develop their own custom panel types to extend iSEE applications.
 
 ## References
 

@@ -95,8 +95,12 @@ Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 </table>
 
 .center[
+<a href="https://bioconductor.org/">
 <img src="img/bioconductor-sticker.png" alt="iSEE" height="200px">
+</a>
+<a href="https://bioconductor.github.io/EuroBioc2017/">
 <img src="img/EuroBioc2017-sticker.png" alt="iSEE" height="200px">
+</a>
 ]
 
 ---
@@ -142,6 +146,14 @@ knitr::include_graphics("img/osca.fig2.sce.png")
 [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0700-8)
 `r Citep(bib, "amezquita2020osca")`
 ]
+
+---
+
+# SingleCellExperiment & iSEE
+
+```{r, out.height='500px', fig.align='center'}
+knitr::include_graphics("img/osca-sce-isee.png")
+```
 
 ---
 
@@ -239,6 +251,28 @@ knitr::include_graphics("img/landing-page.png")
 
 ---
 
+# More
+
+- Not only single-cell transcriptomics, but any rectangular experimental data set, e.g.
+  
+  + bulk assays (e.g., RNA-seq, ChIP-seq)
+
+  + microarray
+  
+  + flow cytometry
+  
+  + ...
+
+<br/>
+
+- Voice recognition, with `iSEE(..., voice = TRUE)`
+
+<br/>
+
+- Online book [Extending iSEE](https://isee.github.io/iSEE-book/)
+
+---
+
 # References
 
 .small-text[
@@ -282,11 +316,20 @@ PrintBibliography(bib)
 The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) Bioconductor Slack channel
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
-This presentation on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/#1)
+The iSEE GitHub organization at
+<https://github.com/iSEE>
 
-`r fontawesome::fa("github", fill = "black", position = "static")`
-The iSEE [GitHub organization](https://github.com/iSEE)
+]
 
-`r fontawesome::fa("github", fill = "black", position = "static")`
-The EuroBioC 2020 Workshop on [GitHub](https://isee.github.io/iSEEWorkshopEuroBioc2020)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+.center[
+This presentation on GitHub at
+
+<https://kevinrue.github.io/xaringan_nextgen_omics_2021/>
 ]
