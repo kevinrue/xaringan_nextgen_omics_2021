@@ -100,8 +100,7 @@ For instance the `DynamicReducedDimensionPlot` is designed to receive a selectio
 
 ## TODO
 
-- Develop new panels (e.g. show class inheritance tree)
-- Panels that perform dynamic computation
+- Landing page
 - iSEE(sce)
 - iSEE()
 - Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
