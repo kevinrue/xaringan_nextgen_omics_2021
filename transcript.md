@@ -87,6 +87,17 @@ For this, iSEE includes the possibility to design guided tours, that users can l
 Each step in a guided tour attaches a message to an element of the interface.
 Together, the steps of a guided tour can guide users through key aspects of a data set, or simply train them to use the user interface efficiently.
 
+## Developing new panels
+
+As I mentioned at the very start, iSEE allows users to develop new panels that seamlessly integrate alongside built in panels in the user interface.
+Panels are implemented as a hierarchy of S4 classes, some of which provide core functionality shared by all the panel types that are derived from it.
+In other words, new panels can be rapidly developed by re-using and extending functionality available in other panel types.
+Our separate package `iSEEu` provides a number of additional panel types demonstrating this functionality.
+In particular, I want to a moment here to stress that the built-in panels in iSEE are restricted to display information already present in the object.
+In other words, built-in panels do not compute new information.
+However, some panels in the `iSEEu` package demonstrate how users can develop panels that do compute new information.
+For instance the `DynamicReducedDimensionPlot` is designed to receive a selection of data points from another panel, and dynamically compute and display a new dimensionality reduction result for that selection.
+
 ## TODO
 
 - Develop new panels (e.g. show class inheritance tree)
