@@ -98,9 +98,15 @@ In other words, built-in panels do not compute new information.
 However, some panels in the `iSEEu` package demonstrate how users can develop panels that do compute new information.
 For instance the `DynamicReducedDimensionPlot` is designed to receive a selection of data points from another panel, and dynamically compute and display a new dimensionality reduction result for that selection.
 
+## Custom landing pages
+
+iSEE was originally designed to serve one data set per application.
+However, we have found that for publicly available applications, it can be convenient to centralise multiple data sets in a single application letting users choose a data set at run time.
+For this, users can design a custom landing page, where visitors should be presented with at least a choice of data sets, and a button to load the chosen data set in the standard iSEE user interface.
+Custom landing pages can be a great way to welcome visitors on a branded web page, while leveraging the functionality of iSEE applications for interactive exploration.
+
 ## TODO
 
-- Landing page
 - iSEE(sce)
 - iSEE()
 - Runs on RStudio Desktop (locally) or RStudio Server / RStudio Connect (remote server)
