@@ -95,8 +95,12 @@ Read more: <https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/>
 </table>
 
 .center[
+<a href="https://bioconductor.org/">
 <img src="img/bioconductor-sticker.png" alt="iSEE" height="200px">
+</a>
+<a href="https://bioconductor.github.io/EuroBioc2017/">
 <img src="img/EuroBioc2017-sticker.png" alt="iSEE" height="200px">
+</a>
 ]
 
 ---
@@ -249,7 +253,7 @@ knitr::include_graphics("img/landing-page.png")
 
 # More
 
-- Not only single-cell omics, but any rectangular experimental data set, e.g.
+- Not only single-cell transcriptomics, but any rectangular experimental data set, e.g.
   
   + bulk assays (e.g., RNA-seq, ChIP-seq)
 

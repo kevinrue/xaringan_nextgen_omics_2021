@@ -108,9 +108,15 @@ However, we have found that for publicly available applications, it can be conve
 For this, users can design a custom landing page, where visitors should be presented with at least a choice of data sets, and a button to load the chosen data set in the standard iSEE user interface.
 Custom landing pages can be a great way to welcome visitors on a branded web page, while leveraging the functionality of iSEE applications for interactive exploration.
 
-## Insert slide here
+## More
 
-...
+As we are approaching the end of this presentation, I will stress that iSEE is far from restricted to single-cell transcriptomics data sets.
+Despite its name, the SingleCellExperiment class is suitable for storing any rectangular data set, from bulk experiments such as RNA-seq or ChIP-seq, to microarray, flow cytometry, and more.
+Feel free to come to us with your own use cases, and challenge us to see how your own types of data may come to life in iSEE apps!
+I will also mention that I could not possibly introduce or demonstrate all the use cases and features of iSEE application in this presentation.
+In the past, we have given up to 3-hour long hands-on workshops and still not entirely covered everything iSEE can do.
+One example is the use of cloud-based voice recognition software to allow users voice control of iSEE applications, such as adding or removing panels from the user interface, or coloring data points using one of the covariates available in the data set.
+Finally, we have also written an online freely available book that imparts knowledge and advice for users wishing to develop their own custom panel types to extend iSEE applications.
 
 ## References
 
