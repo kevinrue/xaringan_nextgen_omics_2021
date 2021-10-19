@@ -208,6 +208,14 @@ shiny::runApp(app)
 
 ---
 
+# Guided tours
+
+```{r}
+knitr::include_graphics("img/allen-tour.png")
+```
+
+---
+
 # References
 
 .small-text[
