@@ -11,7 +11,7 @@ My name is Kevin Rue-Albrecht. I am a computational biologist in the group of Da
 The iSEE package delivers interactive web-applications that can be run locally in RStudio Desktop or accessed on a web-server hosting the application using any major web browser, including Google Chrome, Mozilla Firefox, and macOS Safari.
 The graphical user interface includes a range of panels, each with a dedicated functionality, from dimensionality reduction results, to sample or gene metadata, or values from experimental assays.
 The user interface is extremely flexible, with the ability to add, remove and rearrange panels.
-Additionally, the application allows users to implement new panels types and seamlessly integrate those alongside built-in panel types
+Additionally, the application allows users to implement new panel types and seamlessly integrate those alongside built-in panel types
 
 ## Winners of the 1st Rstudio Shiny Contest
 
@@ -36,7 +36,7 @@ In this context, iSEE leverages the information accumulated during those analyti
 In particular, one of the latest developments in the Bioconductor infrastructure is the SingleCellExperiment class of S4 objects.
 This extension of the earlier SummarizedExperiment class is capable of storing all the essential information for most single-cell experiments in a single object.
 This makes it a convenient and powerful data structure that has become the de facto currency for Bioconductor packages processing single-cell data.
-At its core, the SingleCellExperiment class stores assay data for each feature and cell in matrix format at various stages of the processing workflow.
+At its core, the SingleCellExperiment class stores matrices holding assay data at various stages of the processing workflow for each feature and cell in the data set.
 However, the object also includes components to store metadata for both features and cells, as well as dimensionality reduction results.
 Crucially, all of that information is kept synchronised during reordering and subsetting operations on the object.
 
