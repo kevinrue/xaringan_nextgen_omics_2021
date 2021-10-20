@@ -59,7 +59,7 @@ knitr::include_graphics("img/pbmc3k-prettified.png")
 
 ---
 
-# `r fontawesome::fa("medal", position = "static")` Winners of the 1st Rstudio Shiny Contest
+# `r fontawesome::fa("medal", position = "static")` Winners of the 1st RStudio Shiny Contest
 
 ```{r, fig.align='center', out.height='300px'}
 knitr::include_graphics("img/shiny-contest.png")
