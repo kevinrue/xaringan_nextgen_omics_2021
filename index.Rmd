@@ -313,7 +313,8 @@ PrintBibliography(bib)
 ]
 
 `r fontawesome::fa("slack", fill = "black", position = "static")`
-The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) Bioconductor Slack channel
+The [#isee](https://community-bioc.slack.com/archives/C8BJLSP8T) channel of the Bioconductor Slack workspace.
+Join [here](https://bioc-community.herokuapp.com/)!
 
 `r fontawesome::fa("github", fill = "black", position = "static")`
 The iSEE GitHub organization at
