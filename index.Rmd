@@ -2,7 +2,7 @@
 title: 'Interactive And Collaborative Exploration Of Large-Scale Transcriptomics Data With <a href="https://bioconductor.org/packages/iSEE/"><img src="img/isee-sticker.png" alt="logo" style="vertical-align:bottom" height="70px"></a>'
 subtitle: 'NextGen Omics UK 2021'
 author: '<i class="fab fa-github" style="color: #000000;"></i> [kevinrue](https://kevinrue.github.io) <i class="fab fa-twitter" style="color: #1da1f2;"></i> [KevinRUE67](https://twitter.com/KevinRUE67) <i class="fab fa-linkedin" style="color: #0e76a8;"></i> [kevin-rue-albrecht](https://www.linkedin.com/in/kevin-rue-albrecht/)'
-institute: 'University of Oxford'
+institute: 'Kevin Rue-Albrecht, University of Oxford'
 date: '2021-11-08'
 always_allow_html: yes
 output:
